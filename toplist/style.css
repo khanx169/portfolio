@@ -1,0 +1,55 @@
+* {
+   outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.app{
+	display: flex;
+}
+
+.title {
+	font-style: normal;
+	font-size: 55px;
+	font-family: Helvetica;
+	color: rgb(249, 247, 247);
+	text-align: left;
+	background-color: #33BEBE;
+	max-width: 1100px;
+	height: 70px;
+	margin: 20px;
+	border-width: 0px;
+	border-color: rgb(0, 255, 197);
+	border-style: solid;
+	padding: 30px;
+	box-sizing: content-box;
+}
+
+.screenshot {
+	max-width: 460px;
+	max-height: 460px;
+	margin: 20px;
+	border-width: 0px;
+	border-color: rgb(249, 249, 244);
+	border-style: hidden;
+	padding: 0px;
+	box-sizing: content-box;
+}
+
+.description {
+	max-width: 705px;
+	max-height: 705px;
+	font-size: 25px;
+	font-family: Helvetica;
+	color: #7C8B88;
+	margin: 20px;
+	border-width: 0px;
+	border-color: #feedbb;
+	border-style: solid;
+	padding: 0px;
+	box-sizing: content-box;
+}
